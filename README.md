@@ -5,3 +5,5 @@
 ```powershell
 $ marp --html --server
 ```
+
+また，PDFは`./pdf/`にあります．（こちらはcssのアニメーションなど，一部表示が制限されています．）
