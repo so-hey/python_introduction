@@ -23,12 +23,54 @@ section::before {
 section::after {
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
-section.mokuji li {
-  list-style: none;
+section.mokuji a {
+  text-decoration: none;
+  font-size: 100%;
+}
+section.mokuji h1 a {
+  color: #008cff;
+}
+section.mokuji h2 a {
+  font-size: 95%;
+  color: azure;
+}
+section.mokuji h2 a:hover {
+  font-size: 100%;
+  color: #008cff;
+  transition-duration: 0.1s;
 }
 
+h2 {
+  color: #87c9ff;
+}
+
+a {
+  /* color: #008cff; */
+  font-size: 120%;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
+pre {
+  margin-right: 80px;
+}
 pre code {
-  font-size: 35px;
+  font-size: 30px;
+}
+
+strong {
+  color: #87c9ff;
+  font-size: 120%;
+}
+
+code {
+  margin: 0 4px;
+}
+
+blockquote {
+  font-size: 30px;
 }
 
 .title {
@@ -44,109 +86,95 @@ section .split {
   flex-wrap: wrap;
 }
 .split pre {
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 .division_1 {
   width: 100%;
 }
-
 .division_2 {
   width: 50%;
 }
-
 .division_3 {
   width: 33.3333333333%;
 }
-
 .division_4 {
   width: 25%;
 }
-
 .division_5 {
   width: 20%;
 }
-
 .division_6 {
-  width: 16.6666666667%;
+  width: 16.6666666666%;
 }
-
 .division_7 {
   width: 14.2857142857%;
 }
-
 .division_8 {
   width: 12.5%;
 }
 
+.percent_5 {
+  width: 5%;
+}
 .percent_10 {
   width: 10%;
 }
-
 .percent_15 {
   width: 15%;
 }
-
 .percent_20 {
   width: 20%;
 }
-
 .percent_25 {
   width: 25%;
 }
-
 .percent_30 {
   width: 30%;
 }
-
 .percent_35 {
   width: 35%;
 }
-
 .percent_40 {
   width: 40%;
 }
-
 .percent_45 {
   width: 45%;
 }
-
 .percent_50 {
   width: 50%;
 }
-
 .percent_55 {
   width: 55%;
 }
-
 .percent_60 {
   width: 60%;
 }
-
 .percent_65 {
   width: 65%;
 }
-
 .percent_70 {
   width: 70%;
 }
-
 .percent_75 {
   width: 75%;
 }
-
 .percent_80 {
   width: 80%;
 }
-
-/*# sourceMappingURL=dakken_style.css.map */
-
-.anime_test:hover {
-  background-color: #2196f3; /* 背景色指定 */
+.percent_85 {
+  width: 85%;
 }
-.anime_test {
-  height: 200px; /* 高さ指定 */
-  width: 200px; /* 幅指定 */
-  background-color: #f44336; /* 背景色指定 */
-  transition: 1s; /* アニメーション指定 */
+.percent_90 {
+  width: 90%;
+}
+.percent_95 {
+  width: 95%;
+}
+
+.true {
+  color: rgb(150, 150, 255);
+}
+.false {
+  color: rgb(255, 150, 150);
 }
