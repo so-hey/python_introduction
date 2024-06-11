@@ -1,8 +1,8 @@
 ---
-marp: false
-theme: dakken_style
+marp: true
+theme: dakken_dark_theme
 class: invert
-author: so-hey
+author: dakken
 header:
 footer:
 paginate: true
@@ -13,7 +13,7 @@ math: mathjax
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 <div class="split">
 <div class="percent_45">
@@ -31,8 +31,6 @@ math: mathjax
 ###### <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -45,6 +43,8 @@ math: mathjax
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -61,13 +61,11 @@ math: mathjax
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. # 事前準備
@@ -80,6 +78,8 @@ math: mathjax
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -127,7 +127,6 @@ math: mathjax
 ![](../img/google_colaboratory.png)
 
 </div>
-</>
 
 ---
 
@@ -138,37 +137,38 @@ math: mathjax
 
 #### コード
 
-コンピュータへの命令を記述したもの
+##### コンピュータへの命令を記述したもの
 
 #### セル
 
-コードを書くための長方形のボックスのこと
+##### コードを書くための長方形のボックスのこと
 
 </div>
-<center class="percent_40">
-
+<div class="percent_40">
 <br><br><br><br>
+<div style="text-align: center">
 
 ![w:100%](../img/cell.png)
 
-</center>
 </div>
-
+</div>
+</div>
 <div class="split">
 <div class="percent_70">
 
 #### 実行する
 
-「`Shift`+`Enter`」or「`Ctrl`+`Enter`」or「セルの左の<br>再生ボタン」を押して書いたプログラムを動かすこと
+##### 「`Shift`+`Enter`」or「`Ctrl`+`Enter`」or「セルの左の<br>再生ボタン」を押して書いたプログラムを動かすこと
 
 </div>
-<center class="percent_20">
-
+<div class="percent_20">
 <br>
+<div style="text-align: center">
 
 ![w:80px](../img/execution_button.png)
 
-</center>
+</div>
+</div>
 </div>
 
 ---
@@ -223,7 +223,7 @@ Hello, World!
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -646,13 +646,11 @@ print(x)
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -665,6 +663,8 @@ print(x)
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -986,13 +986,11 @@ xは5以上で10以下です
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -1005,6 +1003,8 @@ xは5以上で10以下です
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -1127,13 +1127,11 @@ while i < 100:
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -1146,6 +1144,8 @@ while i < 100:
 
 5. # 配列
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -1203,16 +1203,18 @@ print(a[1])
 
 <br>
 
-&nbsp;&nbsp;&nbsp;問題．次の配列から`30`を指定して出力するコードは？
+##### &nbsp;&nbsp;&nbsp;問題．次の配列から`30`を指定して出力するコードは？
 
 ```python
 a = [10, 20, 30, 40]
 ```
 
 <details>
-<summary>答え</summary>
+<summary>
 
-######
+##### 答え
+
+</summary>
 
 ```python
 print(a[2])
@@ -1404,13 +1406,11 @@ index:  0  1  2  3      0  1  2
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -1423,6 +1423,8 @@ index:  0  1  2  3      0  1  2
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -1558,12 +1560,14 @@ for i in range(6, 8):
 
 ---
 
-&nbsp;&nbsp;&nbsp;問題1．配列`[0, 1, 2, 3, 4, 5, 6, 7, 8]`を生成して出力するコードは？
+##### &nbsp;&nbsp;&nbsp;問題1．配列`[0, 1, 2, 3, 4, 5, 6, 7, 8]`を生成して出力するコードは？
 
 <details>
-<summary>答え</summary>
+<summary>
 
-######
+##### 答え
+
+</summary>
 
 ```python
 print(list(range(9)))
@@ -1573,14 +1577,16 @@ print(list(range(9)))
 
 </details>
 
-<br><br>
+<br>
 
-&nbsp;&nbsp;&nbsp;問題2．配列`[4, 5, 6, 7, 8, 9, 10]`を生成して出力するコードは？
+##### &nbsp;&nbsp;&nbsp;問題2．配列`[4, 5, 6, 7, 8, 9, 10]`を生成して出力するコードは？
 
 <details>
-<summary>答え</summary>
+<summary>
 
-######
+##### 答え
+
+</summary>
 
 ```python
 print(range(4, 11))
@@ -1590,13 +1596,11 @@ print(range(4, 11))
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -1609,6 +1613,8 @@ print(range(4, 11))
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -1651,11 +1657,11 @@ print(range(4, 11))
 
 ##### 以下に基本的な3つの組み込み関数を紹介します．
 
-| 関数                       | 処理                                          |
-| -------------------------- | --------------------------------------------- |
-| <center>`max()`</center>   | 与えられた引数の中から1番大きな値を返します． |
-| <center>`int()`</center>   | 整数に変換可能な値を整数に変換します．        |
-| <center>`input()`</center> | 標準入力を受け取ります．                      |
+| 関数                                             | 処理                                          |
+| ------------------------------------------------ | --------------------------------------------- |
+| <div style="text-align: center;">`max()`</div>   | 与えられた引数の中から1番大きな値を返します． |
+| <div style="text-align: center;">`int()`</div>   | 整数に変換可能な値を整数に変換します．        |
+| <div style="text-align: center;">`input()`</div> | 標準入力を受け取ります．                      |
 
 ---
 
@@ -1975,9 +1981,11 @@ print(16, 4)
 <br>
 
 <details>
-<summary>これは何をする関数？</summary>
+<summary>
 
-######
+##### これは何をする関数？
+
+</summary>
 
 a の 1/b 乗，つまり a の b 乗根を返す関数．
 
@@ -1987,13 +1995,11 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -2006,6 +2012,8 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -2037,7 +2045,7 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 ##### ユークリッド互除法は，紀元前300年にギリシャの数学者Euclidによって発見され，世界最古のアルゴリズムと呼ばれています．
 
-<center><video src="../video/Euclid.mov" controls></video></center>
+<div style="text-align: center"><video src="../video/Euclid.mov" controls></video></div>
 
 ---
 
@@ -2111,13 +2119,11 @@ return a + b
 
 ---
 
-<!-- _class: invert mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
 <div class="split">
-<div class="percent_10">
-</div>
 <div class="percent_45">
 
 1. ## [事前準備](#3)
@@ -2130,6 +2136,8 @@ return a + b
 
 5. ## [配列](#31)
 
+</div>
+<div class="percent_10">
 </div>
 <div class="percent_45">
 
@@ -2168,7 +2176,7 @@ return a + b
 
 ##### [Python入門](https://onelink.to/xju72q)
 
-<div class="linkimg"><a href="https://onelink.to/xju72q"><img src="../img/python.png" style="width:170px"></a></div>
+<div class="linkimg"><a href="https://onelink.to/xju72q"><img src="../img/python_icon.png" style="width:170px"></a></div>
 
 </div>
 <div class="percent_75">
@@ -2187,7 +2195,7 @@ return a + b
 
 ##### [アルゴリズム図鑑](https://onelink.to/ac8ak3)
 
-<div class="linkimg"><a href="https://onelink.to/ac8ak3"><img src="../img/algorithm.png" style="width:170px"></a></div>
+<div class="linkimg"><a href="https://onelink.to/ac8ak3"><img src="../img/algorithm_icon.png" style="width:170px"></a></div>
 
 </div>
 <div class="percent_75">
@@ -2205,8 +2213,8 @@ return a + b
 
 ## 次にしてほしいこと
 
-<!-- #### DA研深層学習勉強会の<a href="https://www.youtube.com/watch?v=k_egtDD4eFA&list=PLlbSfNpDzPNNiwZKQinTqob37z250ugPv" target="_blank" rel="noopener noreferrer">第1回動画</a>を見てさらに勉強してみてください．<br>この資料より少しレベルの高いPythonの学習をすることができると思います．<br>(もちろん，深層学習を勉強するために第2回以降も見ていただきたいです．) -->
+<!-- ##### DA研深層学習勉強会の<a href="https://www.youtube.com/watch?v=k_egtDD4eFA&list=PLlbSfNpDzPNNiwZKQinTqob37z250ugPv" target="_blank" rel="noopener noreferrer">第1回動画</a>を見てさらに勉強してみてください．<br>この資料より少しレベルの高いPythonの学習をすることができると思います．<br>(もちろん，深層学習を勉強するために第2回以降も見ていただきたいです．) -->
 
-#### DA研深層学習勉強会の第1回動画を見てさらに勉強してみてください．<br>この資料より少しレベルの高いPythonの学習をすることができると思います．<br>(もちろん，深層学習を勉強するために第2回以降も見ていただきたいです．)
+##### DA研深層学習勉強会の第1回動画を見てさらに勉強してみてください．<br>この資料より少しレベルの高いPythonの学習をすることができると思います．<br>(もちろん，深層学習を勉強するために第2回以降も見ていただきたいです．)
 
-#### また，いつか開催する予定の**AtCoder勉強会**に参加して，競技プログラミングを通してさらにプログラミング能力をつけていってください．
+##### また，いつか開催する予定の**AtCoder勉強会**に参加して，競技プログラミングを通してさらにプログラミング能力をつけていってください．

@@ -1,4 +1,4 @@
-/* @theme dakken_style */
+/* @theme dakken_dark_theme */
 
 @import "default";
 
@@ -23,29 +23,29 @@ section::before {
 section::after {
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
+section.mokuji {
+  padding: 0 200px;
+}
 section.mokuji a {
-  text-decoration: none;
-  font-size: 100%;
-}
-section.mokuji h1 a {
-  color: #008cff;
-}
-section.mokuji h2 a {
   font-size: 95%;
   color: azure;
+  text-decoration: underline;
 }
 section.mokuji h2 a:hover {
   font-size: 100%;
   color: #008cff;
+  text-decoration: none;
   transition-duration: 0.1s;
 }
 
+h1 {
+  color: #8eccff;
+}
 h2 {
-  color: #87c9ff;
+  color: #b2dcff;
 }
 
 a {
-  /* color: #008cff; */
   font-size: 120%;
   text-decoration: underline;
 }
@@ -60,11 +60,6 @@ pre code {
   font-size: 30px;
 }
 
-strong {
-  color: #87c9ff;
-  font-size: 120%;
-}
-
 code {
   margin: 0 4px;
 }
@@ -73,11 +68,28 @@ blockquote {
   font-size: 30px;
 }
 
+strong {
+  color: #b2dcff;
+  font-size: 120%;
+}
+
 .title {
   font-size: 80px;
   text-align: center;
   font-weight: 600;
-  color: #cae7fe;
+  color: #80c6ff;
+}
+
+.subtitle {
+  position: absolute;
+  top: 40px;
+  font-size: 45px;
+  font-weight: 600;
+  color: #80c6ff;
+}
+
+.content {
+  margin-top: 40px;
 }
 
 .split,
