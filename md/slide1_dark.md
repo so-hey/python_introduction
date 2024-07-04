@@ -1,7 +1,7 @@
 ---
 marp: true
-theme: dakken_light_theme
-class:
+theme: dakken_dark_theme
+class: invert
 author: dakken
 header:
 footer:
@@ -13,7 +13,7 @@ math: mathjax
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 <div class="split">
 <div class="percent_45">
@@ -41,7 +41,7 @@ math: mathjax
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -61,7 +61,7 @@ math: mathjax
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -76,7 +76,7 @@ math: mathjax
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -223,7 +223,7 @@ Hello, World!
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -240,7 +240,7 @@ Hello, World!
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_45">
@@ -646,7 +646,7 @@ print(x)
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -661,7 +661,7 @@ print(x)
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -817,9 +817,9 @@ xは10より小さいです
 ```python
 y = 20
 if y < 10:
-    print("yは10より小さいです")
+	print("yは10より小さいです")
 else:
-    print("yは10以上です")
+  print("yは10以上です")
 ```
 
 ###### elseの後ろのコロン(:)を忘れずに書きましょう！
@@ -854,11 +854,11 @@ yは10以上です
 ```python
 z = 15
 if z < 10:
-    print("zは10より小さいです")
+  print("zは10より小さいです")
 elif z <= 20:
-    print("zは10以上20以下です")
+  print("zは10以上20以下です")
 else:
-    print("zは20より大きいです")
+  print("zは20より大きいです")
 ```
 
 </div>
@@ -895,9 +895,9 @@ zは10以上20以下です
 ```python
 x = 5
 if x < 10:
-    print(x)
-    x += 8
-    print(x)
+  print(x)
+  x += 8
+  print(x)
 ```
 
 </div>
@@ -932,12 +932,12 @@ if x < 10:
 ```python
 x = 7
 if x <= 10:
-    if x < 5:
-        print("xは5より小さいです")
-    else:
-        print("xは5以上で10以下です")
+  if x < 5:
+    print("xは5より小さいです")
+  else:
+    print("xは5以上で10以下です")
 else:
-    print("xは10より大きいです")
+  print("xは10より大きいです")
 ```
 
 </div>
@@ -962,13 +962,13 @@ xは5以上で10以下です
 ---
 
 <style scoped>
-    table {
-        table-layout: fixed;
-        width: 100%;
-        display: table;
-        font-size: 30px;
-        text-align: center;
-    }
+  table {
+    table-layout: fixed;
+    width: 100%;
+    display: table;
+    font-size: 30px;
+    text-align: center;
+  }
 </style>
 
 ## 複雑な条件式 (and/or/not)
@@ -986,7 +986,7 @@ xは5以上で10以下です
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -1001,7 +1001,7 @@ xは5以上で10以下です
 
 4. # 繰り返し① `while`
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -1033,8 +1033,8 @@ xは5以上で10以下です
 ```python
 i = 0
 while i < 3:
-    print("現在のiは" + i)
-    i += 1
+  print("現在のiは" + i)
+  i += 1
 ```
 
 </div>
@@ -1067,10 +1067,10 @@ while i < 3:
 ```python
 i = 0
 while i < 3:
-    print(i)
-    if i % 2 == 0:
-        print(i + "は偶数")
-    i += 1
+  print(i)
+  if i % 2 == 0:
+    print(i + "は偶数")
+  i += 1
 ```
 
 </div>
@@ -1105,9 +1105,9 @@ while i < 3:
 ```python
 i = 0
 while i < 100:
-    if i == 4:
-        break
-    print(i)
+  if i == 4:
+    break
+  print(i)
 ```
 
 </div>
@@ -1127,7 +1127,7 @@ while i < 100:
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -1142,7 +1142,7 @@ while i < 100:
 
 4. ## [繰り返し① `while`](#27)
 
-5. # 配列
+5. # 配列 `list`
 
 </div>
 <div class="percent_10">
@@ -1162,9 +1162,79 @@ while i < 100:
 
 ---
 
-## 要素の指定
+## 配列について
 
-##### まとめて扱いたいデータがあるとき，配列を使うと便利です．`a = [1, 2, 3]`とすると，要素1, 2, 3を持つ配列が生成されます．<br>Pythonでは配列の1番目の要素を`a[0]`，2番目の要素を`a[1]`，3番目の要素を`a[2]`などと表します．
+##### まとめて扱いたいデータがあるとき，配列(`list`)を使うと便利です．
+
+<br>
+
+例えば...
+
+- テストの点数 `[90, 80, 100, ...]`
+
+- 駅名 `["学園都市", "総合運動公園", "名谷", ...]`
+
+データをまとめることで，効率的に管理することができます．
+
+---
+
+## 配列の作成
+
+##### `a = list()`とすると，何も入っていない空の配列を作成できます．
+
+<div class="split">
+<div class="percent_60">
+
+##### <br>
+
+```python
+a = list()
+print(a)
+```
+
+</div>
+<div class="percent_35">
+
+##### 実行結果
+
+```
+
+[]
+```
+
+</div>
+</div>
+
+##### `a = [1, 2, 3]`のように角括弧で囲うと，1, 2, 3を要素に持つ配列が生成されます．
+
+<div class="split">
+<div class="percent_60">
+
+##### <br>
+
+```python
+a = [1, 2, 3]
+print(a)
+```
+
+</div>
+<div class="percent_35">
+
+##### 実行結果
+
+```
+
+[1, 2, 3]
+```
+
+</div>
+</div>
+
+---
+
+## 要素へのアクセス
+
+##### 配列の1番目の要素を`a[0]`，2番目の要素を`a[1]`，3番目の要素を`a[2]`などと表します．
 
 ##### この「～番目」のことを **インデックス** と言います．
 
@@ -1178,6 +1248,7 @@ while i < 100:
 ```python
 a = [2, 4, 6]
 print(a[1])
+print(a[-1])
 ```
 
 </div>
@@ -1188,14 +1259,17 @@ print(a[1])
 ```
 
 4
+6
 ```
 
 </div>
 </div>
 
+##### `a[-i]`で配列`a`の後ろからi番目を指定できます．
+
 ---
 
-## 要素の指定
+## インデックス
 
 ##### 配列を扱うときは，「0から」インデックスが振られること(0-indexed)に<br>注意しましょう．
 
@@ -1224,11 +1298,58 @@ print(a[2])
 
 ---
 
+## スライスの取得
+
+##### 配列の連続部分列を取得したいときは，スライスを使います．<br>`a[i:j]`で配列`a`のインデックス`i`からインデックス`j`の1つ前までの要素を取得することができます．
+
+<div class="split">
+<div class="percent_60">
+
+###### インデックス`j`の1つ前までということに注意！
+
+```python
+a = [3, 2, 4, 8, 9]
+print(a[1:4])
+```
+
+</div>
+<div class="percent_35">
+
+##### 実行結果
+
+```
+
+[2, 4, 8]
+```
+
+</div>
+</div>
+
+<br>
+
+<div class="split">
+<div class="percent_60">
+
+```
+   i: 0  1  2  3  4
+a[i]: 3, 2, 4, 8, 9
+```
+
+</div>
+<div class="percent_35">
+
+###### インデックス1からインデックス4の前までを取得した．
+
+</div>
+</div>
+
+---
+
 ## 要素の変更
 
 ##### 配列の要素を変更したいときは，位置を指定して代入します．
 
-`a[i] = x`で配列aのi番目をxに変更します．
+`a[i] = x`で配列`a`のi番目をxに変更します．
 
 <div class="split">
 <div class="percent_60">
@@ -1259,9 +1380,11 @@ print(a)
 
 ## 要素の追加
 
-##### 配列に要素を追加しようときは，`append()`を使う方法と`insert()`を使う方法の<br>2通りあります．
+##### 配列に要素を追加しようときは，`append()`を使う方法と`insert()`を使う方法の2通りあります．
 
 1. 配列の末尾に要素を追加する`append()`
+
+`a.append(x)`で配列`a`の末尾に要素xを追加します．
 
 <div class="split">
 <div class="percent_60">
@@ -1292,7 +1415,7 @@ print(a)
 
 2. 配列の任意の位置に要素を挿入する`insert()`
 
-`a.insert(i, x)`で配列aのi番目に要素xを挿入します．
+`a.insert(i, x)`で配列`a`のi番目に要素xを挿入します．
 
 <div class="split">
 <div class="percent_60">
@@ -1329,15 +1452,15 @@ index:  0  1  2      0  1  2  3
 
 ---
 
-## 配列の削除
+## 要素の削除
 
-##### 配列aから要素を削除したいときには，`remove()`を使う方法と`del`を使う方法の2通りあります．
+##### 配列`a`から要素を削除したいときには，`remove()`を使う方法と`del`を使う方法の2通りあります．
 
 1. 要素の値を指定して削除する`remove()`
 
-`a.remove(x)`で配列aの要素xを削除します.
+`a.remove(x)`で配列`a`の要素xを削除します.
 
-###### 配列aにxという値が2つ以上含まれるときは，最初の1つが削除されます．
+###### 配列`a`にxという値が2つ以上含まれるときは，最初の1つが削除されます．
 
 <div class="split">
 <div class="percent_60">
@@ -1368,7 +1491,7 @@ print(a)
 
 2. 要素の位置を指定して削除する`del`
 
-`del a[i]`で配列aのi番目の要素を削除します．
+`del a[i]`で配列`a`のi番目の要素を削除します．
 
 <div class="split">
 <div class="percent_60">
@@ -1406,7 +1529,7 @@ index:  0  1  2  3      0  1  2
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -1421,7 +1544,7 @@ index:  0  1  2  3      0  1  2
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -1453,7 +1576,7 @@ index:  0  1  2  3      0  1  2
 ```python
 a = [1, 2, 3]
 for i in a:
-    print(i)
+  print(i)
 ```
 
 </div>
@@ -1495,7 +1618,7 @@ print(list(range(5)))
 
 ```python
 for i in range(2):
-    print(i)
+  print(i)
 ```
 
 </div>
@@ -1534,7 +1657,7 @@ print(list(range(3, 7)))
 
 ```python
 for i in range(6, 8):
-    print(i)
+  print(i)
 ```
 
 </div>
@@ -1596,7 +1719,7 @@ print(range(4, 11))
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -1611,7 +1734,7 @@ print(range(4, 11))
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -1644,11 +1767,11 @@ print(range(4, 11))
 ---
 
 <style scoped>
-    table {
-        width: 100%;
-        display: table;
-        font-size: 30px;
-    }
+  table {
+    width: 100%;
+    display: table;
+    font-size: 30px;
+  }
 </style>
 
 ## 基本的な組み込み関数
@@ -1877,8 +2000,8 @@ Hello, Python!
 
 ```python
 def double(a):
-    b = 2 * a
-    print(b)
+  b = 2 * a
+  print(b)
 ```
 
 ```python
@@ -1918,8 +2041,8 @@ double(230)
 
 ```python
 def triple(a):
-    b = 3 * a
-    return b
+  b = 3 * a
+  return b
 ```
 
 ```python
@@ -1955,7 +2078,7 @@ print(c)
 
 ```python
 def pwrt(a, b):
-    return a ** (1 / b)
+  return a ** (1 / b)
 ```
 
 ```python
@@ -1995,7 +2118,7 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -2010,7 +2133,7 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -2073,16 +2196,16 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 ```python
 def euclid(a, b):
-    while a > 0 and b > 0:
-        if a > b:
-            a %= b
-        else:
-            b %= a
-
-    if a == 0:
-        return b
+  while a > 0 and b > 0:
+    if a > b:
+      a %= b
     else:
-        return a
+      b %= a
+
+  if a == 0:
+    return b
+  else:
+    return a
 ```
 
 <br>
@@ -2119,7 +2242,7 @@ return a + b
 
 ---
 
-<!-- _class:  mokuji -->
+<!-- _class:  mokuji invert -->
 
 # <br>
 
@@ -2134,7 +2257,7 @@ return a + b
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -2155,18 +2278,18 @@ return a + b
 ---
 
 <style scoped>
-    .linkimg {
-        width:170px;
-        transition-duration: 0.3s;
-    }
-    .linkimg img {
-        display: block;
-        transition-duration: 0.3s;
-    }
-    .linkimg:hover {
-        transform: scale(0.95, 0.95);
-        transition-duration: 0.3s;
-    }
+  .linkimg {
+    width:170px;
+    transition-duration: 0.3s;
+  }
+  .linkimg img {
+    display: block;
+    transition-duration: 0.3s;
+  }
+  .linkimg:hover {
+    transform: scale(0.95, 0.95);
+    transition-duration: 0.3s;
+  }
 </style>
 
 ## 参考にしたアプリ一覧

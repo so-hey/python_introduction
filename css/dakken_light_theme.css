@@ -5,6 +5,7 @@
 section {
   position: relative;
   background-color: #dde;
+  color: black;
 }
 section::before {
   content: "";
@@ -57,11 +58,13 @@ pre {
 }
 pre code {
   font-size: 30px;
+  color: #303030;
 }
 
 code {
   background-color: rgba(200, 200, 220, 0.6);
   margin: 0 4px;
+  color: #303030;
 }
 
 blockquote {

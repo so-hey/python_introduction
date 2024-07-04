@@ -1,7 +1,7 @@
 ---
 marp: true
-theme: dakken_dark_theme
-class: invert
+theme: dakken_light_theme
+class:
 author: dakken
 header:
 footer:
@@ -13,7 +13,7 @@ math: mathjax
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 <div class="split">
 <div class="percent_45">
@@ -41,7 +41,7 @@ math: mathjax
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -61,7 +61,7 @@ math: mathjax
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -76,7 +76,7 @@ math: mathjax
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -223,7 +223,7 @@ Hello, World!
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -240,7 +240,7 @@ Hello, World!
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_45">
@@ -646,7 +646,7 @@ print(x)
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -661,7 +661,7 @@ print(x)
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -986,7 +986,7 @@ xは5以上で10以下です
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -1001,7 +1001,7 @@ xは5以上で10以下です
 
 4. # 繰り返し① `while`
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -1127,7 +1127,7 @@ while i < 100:
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -1228,7 +1228,7 @@ print(a[2])
 
 ##### 配列の要素を変更したいときは，位置を指定して代入します．
 
-`a[i] = x`で配列aのi番目をxに変更します．
+`a[i] = x`で配列`a`のi番目をxに変更します．
 
 <div class="split">
 <div class="percent_60">
@@ -1292,7 +1292,7 @@ print(a)
 
 2. 配列の任意の位置に要素を挿入する`insert()`
 
-`a.insert(i, x)`で配列aのi番目に要素xを挿入します．
+`a.insert(i, x)`で配列`a`のi番目に要素xを挿入します．
 
 <div class="split">
 <div class="percent_60">
@@ -1331,13 +1331,13 @@ index:  0  1  2      0  1  2  3
 
 ## 配列の削除
 
-##### 配列aから要素を削除したいときには，`remove()`を使う方法と`del`を使う方法の2通りあります．
+##### 配列`a`から要素を削除したいときには，`remove()`を使う方法と`del`を使う方法の2通りあります．
 
 1. 要素の値を指定して削除する`remove()`
 
-`a.remove(x)`で配列aの要素xを削除します.
+`a.remove(x)`で配列`a`の要素xを削除します.
 
-###### 配列aにxという値が2つ以上含まれるときは，最初の1つが削除されます．
+###### 配列`a`にxという値が2つ以上含まれるときは，最初の1つが削除されます．
 
 <div class="split">
 <div class="percent_60">
@@ -1368,7 +1368,7 @@ print(a)
 
 2. 要素の位置を指定して削除する`del`
 
-`del a[i]`で配列aのi番目の要素を削除します．
+`del a[i]`で配列`a`のi番目の要素を削除します．
 
 <div class="split">
 <div class="percent_60">
@@ -1406,7 +1406,7 @@ index:  0  1  2  3      0  1  2
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -1421,7 +1421,7 @@ index:  0  1  2  3      0  1  2
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -1596,7 +1596,7 @@ print(range(4, 11))
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -1611,7 +1611,7 @@ print(range(4, 11))
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -1995,7 +1995,7 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -2010,7 +2010,7 @@ a の 1/b 乗，つまり a の b 乗根を返す関数．
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
@@ -2119,7 +2119,7 @@ return a + b
 
 ---
 
-<!-- _class:  mokuji invert -->
+<!-- _class:  mokuji -->
 
 # <br>
 
@@ -2134,7 +2134,7 @@ return a + b
 
 4. ## [繰り返し① `while`](#27)
 
-5. ## [配列](#31)
+5. ## [配列 `list`](#31)
 
 </div>
 <div class="percent_10">
