@@ -1420,10 +1420,15 @@ class BankAccount:
 
 <h2 style="margin:0; padding:0">確認してみる</h2>
 
+<div class="split">
+<div class="percent_55">
+
 ##### 確認コード
 
 ```python
-account1 = BankAccount("山田太郎", "123456789")
+account1 = BankAccount(
+  "山田太郎", "123456789"
+)
 print(account1)
 account1.display_balance()
 account1.deposit(5000)
@@ -1431,13 +1436,27 @@ account1.display_balance()
 account1.withdraw(2000)
 account1.display_balance()
 account1.withdraw(5000)
+account1.display_balance()
 ```
+
+</div>
+<div class="percent_40">
 
 ##### 実行結果
 
 ```
+
+
+
 これは山田太郎の口座です
+残高: 0円
 5000円を入金しました
+残高: 5000円
 2000円を出金しました
+残高: 3000円
 残高不足です
+残高: 3000円
 ```
+
+</div>
+</div>
